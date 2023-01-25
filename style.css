@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #6b5b95; /* purple background color */
+  color: #fff; /* white text color */
+}
+
+header {
+  background-color: #543a77; /* dark purple background color */
+  padding: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* other purple-themed styling */
+h1,
+h2,
+h3 {
+  color: #9b859d; /* light purple text color */
+}
+
+a:link,
+a:visited {
+  color: #9b859d; /* light purple text color */
+}
+
+a:hover,
+a:active {
+  color: #fff; /* white text color */
+}
+
+#men {
+  font-weight: bold;
+  color: lightgray;
+}
