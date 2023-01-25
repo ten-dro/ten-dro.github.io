@@ -14,8 +14,11 @@ h3 {
   color: #9b859d;
 }
 
-.men {
+a:link {
+  color: #9b859d;
+}
+
+#men {
   font-weight: bold;
-  font-size: 20px;
   color: lightgray;
 }
