@@ -18,7 +18,12 @@ a:link {
   color: #9b859d;
 }
 
-#men {
+a:hover,
+a:active {
+  color: #fff;
+}
+
+.men {
   font-weight: bold;
   color: lightgray;
 }
