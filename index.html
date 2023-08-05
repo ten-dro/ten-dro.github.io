@@ -1,58 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Website</title>
-    <!-- make an embed for discord -->
-    <meta property="og:title" content="Tendro" />
-    <meta property="og:description" content="Tendro's Website" />
-    <meta property="og:image" content="images/obama.webp" />
-    <meta property="og:url" content="https://tendro.xyz" />
-    <meta name="theme-color" content="#000000" />
-    <link rel="icon" href="images/obama.webp" />
-    <link rel="apple-touch-icon" href="images/obama.webp" />
-    <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <main>
-      <section id="about">
-        <h1>About Me</h1>
-        <p>I am Tendro.</p>
-        <p>I am really good at these programming launguaches</p>
+    <header>
+      <nav>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Java</li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
         </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="hero-content">
+          <h1>Welcome to Tendro's Website</h1>
+          <p>I am Tendro, a programmer with amazing skills.</p>
+        </div>
       </section>
 
+      <section id="about">I am Tendro. I love fortnite and among us</section>
+
       <section id="projects">
-        <h1>Projects</h1>
         <ul>
-          <li>uhhh Obama Bot</li>
-          <!-- <a class="men" id="obama">- Invite</a> -->
-          <li>Hortum</li>
-          <!-- <a class="men" id="hortum">- Invite</a> -->
+          <ll>Obama Bot</li>
           <li>ChatGPT</li>
-        </ul>
+          <li>Hortum</li>
+        </ol>
       </section>
+
       <img src="images/obama.webp" alt="" />
     </main>
-    <script>
-      document.getElementById("obama").addEventListener("click", function () {
-        window.location.href =
-          "https://discord.com/api/oauth2/authorize?client_id=970095499392729138&permissions=137439275072&scope=bot";
-      });
-      document.getElementById("hortum").addEventListener("click", function () {
-        window.location.href =
-          "https://discord.com/api/oauth2/authorize?client_id=978528781344063498&permissions=1634197695574&scope=bot";
-      });
-    </script>
+
+    <footer>
+      <p>&copy; 2023 Tendro. All rights reserved.</p>
+    </footer>
+
+    <script></script>
   </body>
 </html>
